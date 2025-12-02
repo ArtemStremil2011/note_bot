@@ -1,0 +1,26 @@
+# .gitignore
+# Базы данных
+*.db
+*.sqlite3
+
+# Кэш Python
+__pycache__/
+*.py[cod]
+
+# Файлы окружения
+.env
+.env.local
+
+# Логи
+*.log
+
+# Временные файлы
+*.tmp
+
+# Содержимое .gitignore
+*
+!*.py
+!*.md
+!*.txt
+!.gitignore
+!README*
